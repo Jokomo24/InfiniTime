@@ -9,7 +9,15 @@ namespace Pinetime {
       class MyID : public Screen {
       public:
         MyID(DisplayApp* app);
+            //  ,System::SystemTask& systemTask);
         ~MyID() override;
+        // void OnButtonEvent(lv_obj_t* obj, lv_event_t event);
+        // bool OnTouchEvent(TouchEvents event) override;
+        // void OnValueChanged();
+
+      private:
+
+
       };
     }
   }
